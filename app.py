@@ -1,7 +1,7 @@
 import streamlit as st
 with st.form("create_user_form"):
-new_username = st.text_input("New user's username")
-new_password = st.text_input("New user's password", type="password")
+new_username = st.text_input("siddharth")
+new_password = st.text_input("12345678", type="password")
 submitted = st.form_submit_button("Create user")
 if submitted:
 ok, msg = create_user(new_username, new_password, role="user")
